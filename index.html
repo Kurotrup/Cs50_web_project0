@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="Boot.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>BBBoootstrap</title>
   </head>
@@ -24,7 +24,7 @@
       <h1>Pinkbike's field test</h1>
       <p>Trail/Enduro category</p>
     </div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top " >
+    <nav id="navi" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top " >
       <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
         <img class="rounded-circle" id="logo" src="pic/ava.jpg" alt="Logo">
       </a>
@@ -37,16 +37,22 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav mr-auto" >
           <li class="navbar-item">
-            <a class="nav-link active" href="#">First page</a>
+            <a class="nav-link active" href="index.html">Overview</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="#">Second page</a>
+            <a class="nav-link" href="#">Stumpjumper</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="#">Third page</a>
+            <a class="nav-link" href="#">Remedy</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="#">Fourth page</a>
+            <a class="nav-link" href="#">Process</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Bronson</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">SB150</a>
           </li>
         </ul>
       </div>
@@ -56,26 +62,311 @@
     </div>
 
     <div class="container" >
-      <div class="row" >
+      <div class="row">
+        <div class="col">
+          <p>On paper, the five bikes we placed in the trail / enduro category seem pretty similar – they all have carbon frames, between 140 – 153mm of travel, and head angles between 65 – 66 degrees, with a few minor exceptions. It's a different story out in the real world, though, where numbers don't always directly match up with expectations. Nerd out on geometry charts and dive deep into the kinematics of a bike all you want, but there's no way to really tell how a bike will handle heinous climbs, gnarly descents, and everything in between, until you actually hop on and put tires to dirt. </p>
+          <p>That's that how we all ended up gathered in Whistler, home to some of the best bike testing terrain on the planet. All of the bikes saw plenty of ride time, along with the requisite hucks to flat (for science). As the trail / enduro segment of the Field Test came to a close we sat down to discuss our top picks out of this group of high caliber candidates.</p>
+          <hr>
+        </div>
+      </div>
 
+      <div class="row" >
         <div class="col-md-6" >
-          <h2>1</h2>
+          <div class="card bike_card">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe width="500" height="282" src="https://www.youtube.com/embed/c_odOF3ToaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card_part">
+              <h6 class=" font-weight-bold ">Specialized Stumpjumper 29</h6>
+              <ul>
+                <li>140mm (R) / 150mm (F) travel</li>
+                <li>29" wheels</li>
+                <li>Carbon frame</li>
+                <li>66.5° head-tube angle</li>
+                <li>Weight: 28.2 lb / 12.8 kg</li>
+                <li><a href="#">Field Test article</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Pros</h6>
+              <span class="plus">+</span> Great generalist
+              <br>
+              <span class="plus">+</span> Active suspension provides tons of traction
+              <br>
+              <span class="plus">+</span> SWAT sure is convenient
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Cons</h6>
+              <span class="minus">-</span> Geometry is a bit conservative
+              <br>
+              <span class="minus">-</span> Not all that efficient under power
+              <br>
+              <span class="minus">-</span> Specialized's dropper post is a miss
+              <br>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <h2>2</h2>
+          <div class="card bike_card">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe width="500" height="282" src="https://www.youtube.com/embed/LjKTQ9RKdaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card_part">
+              <h6 class=" font-weight-bold ">Trek Remedy</h6>
+              <ul>
+                <li>150mm (R) / 160mm (F) travel</li>
+                <li>27.5" wheels</li>
+                <li>Carbon frame</li>
+                <li>65.5° head-tube angle</li>
+                <li>Weight: 29.1 lb / 13.2 kg</li>
+                <li><a href="#">Field Test article</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Pros</h6>
+              <span class="plus">+</span> Versatile, well-rounded package
+              <br>
+              <span class="plus">+</span> Impressive suspension performance
+              <br>
+              <span class="plus">+</span> More of a long-legged trail bike than a bruise
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Cons</h6>
+              <span class="minus">-</span> Knock Block is silly
+              <br>
+              <span class="minus">-</span> Run of the mill pedaling manners
+              <br>
+              <span class="minus">-</span> More of a long-legged trail bike than a bruiser
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" >
+        <div class="col-md-6" >
+          <div class="card bike_card">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe width="500" height="282" src="https://www.youtube.com/embed/y2w24QUTQ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card_part">
+              <h6 class=" font-weight-bold ">Kona Process 153 Carbon</h6>
+              <ul>
+                <li>153mm (R) / 160mm (F) travell</li>
+                <li>29" wheels</li>
+                <li>Carbon frame</li>
+                <li>66° head-tube angl</li>
+                <li>Weight: 31.7 lb / 14.4 kg</li>
+                <li><a href="#">Field Test article</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Pros</h6>
+              <span class="plus">+</span> Surprisingly adept climber
+              <br>
+              <span class="plus">+</span> More fun than fast
+              <br>
+              <span class="plus">+</span> Extremely stiff and solid feeling
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Cons</h6>
+              <span class="minus">-</span> More fun than fast
+              <br>
+              <span class="minus">-</span> Not a featherweight
+              <br>
+              <span class="minus">-</span> Suspension isn’t as deep or supple feeling as some other bikes
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card bike_card">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe width="500" height="282" src="https://www.youtube.com/embed/Ttpba7LL4QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card_part">
+              <h6 class=" font-weight-bold ">Santa Cruz Bronson</h6>
+              <ul>
+                <li>150mm (R) / 160mm (F) travel</li>
+                <li>27.5" wheels</li>
+                <li>Carbon frame</li>
+                <li>65.1° head-tube angle</li>
+                <li>Weight: 29.4 lb / 13.3 kg </li>
+                <li><a href="#">Field Test article</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Pros</h6>
+              <span class="plus">+</span> Ideal all-rounder, as long as you have the proper terrain
+              <br>
+              <span class="plus">+</span> Efficient, calm and composed climber
+              <br>
+              <span class="plus">+</span> Excellent cornering performance
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Cons</h6>
+              <span class="minus">-</span> Not the bike for riders looking for the absolute longest and slackest option
+              <br>
+              <span class="minus">-</span> There's no 29" version...
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" >
+        <div class="col-md-6 mx-auto mt-3" >
+          <div class="card bike_card">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe width="500" height="282" src="https://www.youtube.com/embed/tQLQovItCqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card_part">
+              <h6 class=" font-weight-bold ">Yeti SB150</h6>
+              <ul>
+                <li>150mm (R) / 170mm (F) travel</li>
+                <li>29" wheels</li>
+                <li>Carbon frame</li>
+                <li>64.5° head-tube angle</li>
+                <li>Weight: 29.9 lb / 13.6 kg</li>
+                <li><a href="#">Field Test article</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Pros</h6>
+              <span class="plus">+</span> Very stable at speed and in the steeps
+              <br>
+              <span class="plus">+</span> Excellent grip in wet and loose conditions
+              <br>
+              <span class="plus">+</span> Good pedaling performance
+            </div>
+            <div class="card_part">
+              <h6 class="font-weight-bold">Cons</h6>
+              <span class="minus">-</span> Expensive
+              <br>
+              <span class="minus">-</span> EXO casing tires aren't the best choice for a race bike
+              <br>
+              <span class="minus">-</span> Slightly limited rear tire clearance
+              <br>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="row ">
+        <div class="col text-center">
+          <h1 class="font-weight-bold">Editors' Choice</h1>
+          <a href="https://www.pinkbike.com/photo/16623647/">
+          <img class="img-fluid " src="https://ep1.pinkbike.org/p5pb16623647/p5pb16623647.jpg" alt="Trek Remedy 9.9 Photo by Trevor Lyden"></a>
         </div>
       </div>
 
       <div class="row">
-        <div class="col">
-          <h2>3</h2>
-          <p>1</p>
-          <p>1</p>
-          Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.Color Picker. Use the color picker by clicking and dragging your cursor inside the picker area to highlight a color on the right. Input Hex, RGB, HSL or CMYK values to search for a particular color in the fields below the color swatch; click the swatch to add it to your palette.
+        <div class="col-lg-6 pt-3">
+          <h5 class="font-weight-bold">Mike Levy: Trek Remedy</h5>
+          <p>As some of you already know, I want a bike that feels relatively quick and efficient on all types of climbs, and I want that without having to reach for a pedal-assist switch. Call me crazy, but I enjoy climbing and I don't ever want it to feel like a chore.</p>
+          <p>And when it's time to come back down, I want a bike that rewards how I like to ride, which is like an idiot. Yeah, I want to be rewarded for being an idiot. I don't need to snag any KOMs on the descents, but I do need to take dumb lines, skid a load, spend a lot of time on one wheel, and generally be a goof.</p>
+          <p>The Bronson, while quite the monster on rough and fast ground, is just too forgiving, and it always felt like I was sitting into too much travel, even at lower sag numbers. The SB150 is an out-and-out race bike in my mind, and it's too long and slack for me to ever call it my one and only. The Stumpy does everything pretty damn well, but you know how I feel about climb switches, and while I have a great time on it, it's not my preferred geometry, either.</p>
         </div>
+        <div class="col-lg-6 pt-3">
+          <div class="card human_card ">
+            <a href="https://www.pinkbike.com/photo/16603737/">
+              <img class="img-fluid mb-2" src="https://ep1.pinkbike.org/p5pb16603737/p5pb16603737.jpg" alt="2018 Pinkbike Field Test">
+            </a>
+            <div class="card_part">
+              <a href="https://www.pinkbike.com/u/mikelevy/"><h6 class="font-weight-bold">Mike Levy</h6></a>
+              <span class="font-weight-bold">Discipline:</span> Trail/Enduro <br>
+              <span class="font-weight-bold">Height:</span> 5'10" <br>
+              <span class="font-weight-bold">Inseam:</span> 33.5" <br>
+              <span class="font-weight-bold">Weight:</span> 168 lb <br>
+              <span class="font-weight-bold">Notes:</span> Technical Editor, shit disturber, drives a ridiculous blue Mini.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-3">
+          <p>That leaves the Process 153 and the Remedy that have similar amounts of travel but perform drastically differently. I'd be stoked to call either my only bike, but when I picture myself out on a huge day with some huge climbs and equally huge descents, I see myself on the blacked-out Trek before the sand-colored Kona. Surprisingly, to me at least, the bike that I just chose as the one for me doesn't have 29'' wheels and isn't the most efficient, which really underlines how these machines are a sum of their design, geometry, and build kit rather than being defined by just one factor like wheel size or suspension action.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 pt-3">
+          <h5 class="font-weight-bold">Daniel Sapp: Trek Remedy</h5>
+          <p>The SB150 was on my short list, and it'd likely be my top pick if I had a bunch of enduro races on my calendar, but if I could only choose one of these bikes or have nothing at all, I'd go with the Remedy. Why? It's fun. It makes me want to ride, and do so in a variety of terrain without worrying about whether the bike is up to the task or not. I think that I would feel equally comfortable riding it at home in Pisgah as I would anywhere in the Pacific Northwest.</p>
+          <p> When we were filming these videos we were in Whistler, BC, where the terrain is quite different than where I live in North Carolina, which is why I had it as my fifth pick for riding in that area. However, if I were selecting a bike for my home trails, I'd have the Stumpjumper as my second choice. It'd be a good, versatile option, and I really I like having that SWAT box. I love that I can just grab the bike and go on a four hour ride with nothing more than a water bottle and I don't have to strap anything to the frame, fit it in a pocket, or bring a bag. It's freeing. I'd probably up the fork travel by 10mm, which would make it be a little more able to hold its own against the other bikes in this category.</p>
+        </div>
+        <div class="col-lg-6 pt-3">
+          <div class="card human_card ">
+            <a href="https://www.pinkbike.com/photo/16603744/">
+              <img class="img-fluid mb-2" src="https://ep1.pinkbike.org/p5pb16603744/p5pb16603744.jpg" alt="2018 Pinkbike Field Test">
+            </a>
+            <div class="card_part">
+              <a href="https://www.pinkbike.com/u/danielsapp/"><h6 class="font-weight-bold">Daniel Sapp</h6></a>
+              <span class="font-weight-bold">Discipline:</span> Trail/Enduro <br>
+              <span class="font-weight-bold">Height:</span> 5'9" <br>
+              <span class="font-weight-bold">Inseam:</span> 32" <br>
+              <span class="font-weight-bold">Weight:</span> 152 lb <br>
+              <span class="font-weight-bold">Notes:</span> Technical Editor, his southern drawl compensates for our Canadian accents.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-3">
+          <p>The other bikes are all amazing, but as a blanket choice for a variety of riding, and as a bike I would like to spend more time on, I'd take the Remedy, 27.5" wheels, Knock Block, and 2.6 tires included.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <a href="https://www.pinkbike.com/photo/16549913/">
+          <img class="img-fluid " src="https://ep1.pinkbike.org/p5pb16549913/p5pb16549913.jpg" alt="Yeti SB150 Photo by Trevor Lyden"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 pt-3">
+          <h5 class="font-weight-bold">Mike Kazimer: Yeti SB150</h5>
+          <p>I'd obviously be happy to have any of these five contenders in my garage, but it's the Yeti SB150 that's at the top of my list, with the Santa Cruz Bronson coming in a close second.</p>
+          <p>My rides typically involve plenty of climbing before the fun really begins, and while I don't mind taking a few seconds to flip a compression lever, the fact that I can leave the SB150's shock wide open and ride all day without thinking about it is a definite plus. The steep seat angle (the steepest out of all five bikes) earns it another point, which gives it a very comfortable position for grinding out the miles.</p>
+          <p>Yes, the Stumpjumper, Remedy, and Process all have a quicker steering feel, but I'm not convinced that makes them any better at getting through technical climbs; if anything, I prefer the more relaxed handling of the SB150. It's certainly not sluggish, and it's very manageable even if you do find yourself on mellower trails, although hopefully those are just the appetizer before a healthy serving of the rowdy stuff.</p>
+        </div>
+        <div class="col-lg-6 pt-3">
+          <div class="card human_card ">
+            <a href="https://www.pinkbike.com/photo/16603739/">
+              <img class="img-fluid mb-2" src="https://ep1.pinkbike.org/p5pb16603739/p5pb16603739.jpg" alt="2018 Pinkbike Field Test">
+            </a>
+            <div class="card_part">
+              <a href="https://www.pinkbike.com/u/mikekazimer/"><h6 class="font-weight-bold">Mike Kazimer</h6></a>
+              <span class="font-weight-bold">Discipline:</span> Trail/Enduro <br>
+              <span class="font-weight-bold">Height:</span> 5'11" <br>
+              <span class="font-weight-bold">Inseam:</span> 33" <br>
+              <span class="font-weight-bold">Weight:</span> 160 lb <br>
+              <span class="font-weight-bold">Notes:</span> Managing Tech Editor, self proclaimed winner of all Mike vs Mike videos.
+            </div>
+          </div>
 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-3">
+          <p>Levy is all about doing skids and riding like a goon, but me, I'm more about speed. Going fast up and downhill is a big part of why I ride, and the SB150 felt the most stable and controlled out of this batch of bikes. The Process' back end was a little too short for my liking, and the Stumpjumper has more of an all-round trail bike feel than being something I'd want to race the Whistler EWS on. </p>
+          <p>The SB150 has plenty of travel for smoothing out extra-rough tracks, but it doesn't bog down when you're standing up and sprinting, or pumping through flatter sections of trail, which makes it easier to maintain speed. How much traction a bike delivers on the descents is another factor I consider, and while it's hard to quantify, the SB150 and the Bronson felt like they tracked the best and instilled the most confidence when I was coming into a chewed up corner, or plowing through an off-camber section of trail.</p>
+          <p>Yes, the SB150 is expensive, and yes, a little more rear tire clearance wouldn't hurt, but the ride quality is outstanding, which is why it'd be my pick out of these five worthy options.</p>
+          <hr>
+        </div>
       </div>
     </div>
-
+    <footer class=" mt-3 pt-4 text-center ">
+      <p>This page was created in educational purpose only. Design patterns and content copied from the <a href="https://www.pinkbike.com/news/field-test-stumpjumper-vs-remedy-vs-process-vs-bronson-vs-sb150-editors-choice.html">original article</a>.</p>
+      <p>Copyright &copy; 2000 - 2019. Pinkbike.com. All rights reserved.
+      <br>
+      dv65 0.157699</p>
+    </footer>
   </body>
 </html>

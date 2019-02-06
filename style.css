@@ -1,0 +1,123 @@
+hr {
+  border-top: 1px solid #000000;
+  width: 70%;
+}
+
+.human_card, .bike_card {
+  background-color: #ededed;
+  border: none;
+}
+
+.human_card .card_part, .bike_card .card_part {
+  margin-left: 4%;
+}
+
+.bike_card {
+  margin-bottom: 3%;
+}
+.bike_card ul {
+  margin-bottom: 0;
+  margin-left: -4%;
+}
+.bike_card .card_part {
+  margin-bottom: 5%;
+}
+
+.human_card .card_part {
+  margin-bottom: 2%;
+}
+
+.plus {
+  color: green;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.minus {
+  color: red;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-top: 1.5%;
+  color: #ffffff;
+  text-align: center;
+  background-image: url("pic/13.jpg");
+  background-color: #322928;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2.5px 2.5px #000000;
+  border-radius: 0;
+}
+
+@media (min-width: 750px) {
+  .jumbotron h1 {
+    font-size: 50pt;
+  }
+  .jumbotron p {
+    font-size: 16pt;
+  }
+
+  #mainvideo {
+    margin-bottom: 3%;
+  }
+
+  hr {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 749px) {
+  .jumbotron h1 {
+    font-size: 34pt;
+  }
+  .jumbotron p {
+    font-size: 12pt;
+  }
+
+  #mainvideo {
+    margin-bottom: 1%;
+  }
+
+  hr {
+    margin-bottom: 2%;
+  }
+}
+#navi {
+  background-color: #322928 !important;
+  text-shadow: 1.5px 1.5px #000000;
+}
+
+#quote {
+  font-family: "Permanent Marker", cursive;
+  font-size: 18pt;
+  color: #ffffff;
+}
+
+#logo {
+  width: 60px;
+}
+
+footer {
+  border: 1px solid #322928;
+  opacity: 0.5;
+  background-color: #322928;
+  color: #ffffff;
+}
+footer a {
+  color: red;
+}
+footer a:hover {
+  color: #ffffff;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
