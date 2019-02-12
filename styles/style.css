@@ -11,6 +11,10 @@ hr {
 .human_card .card_part, .bike_card .card_part {
   margin-left: 4%;
 }
+.human_card .card_part h4, .bike_card .card_part h4 {
+  margin-top: 4%;
+  font-weight: bold;
+}
 
 .bike_card {
   margin-bottom: 3%;
@@ -71,6 +75,14 @@ hr {
   hr {
     margin-bottom: 5%;
   }
+
+  .cust-pic-con-left {
+    padding: 1% 0.5% 0 0;
+  }
+
+  .cust-pic-con-right {
+    padding: 1% 0 0 0.5%;
+  }
 }
 @media (max-width: 749px) {
   .jumbotron h1 {
@@ -86,6 +98,14 @@ hr {
 
   hr {
     margin-bottom: 2%;
+  }
+
+  .cust-pic-con-left {
+    padding: 1% 0 0 0;
+  }
+
+  .cust-pic-con-right {
+    padding: 1% 0 0 0;
   }
 }
 #navi {
@@ -118,6 +138,26 @@ footer a:hover {
 
 footer:hover {
   opacity: 1;
+}
+
+.pic-note_pic {
+  width: 100%;
+  height: auto;
+}
+
+.pic-note {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pic-note_text {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.pic-note_text h1 {
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=style.css.map */
