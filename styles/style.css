@@ -151,13 +151,20 @@ footer:hover {
   color: #ffffff;
 }
 
-.pic-note_text {
+.pic-note_text-tl, .pic-note_text-tr {
   position: absolute;
   top: 2%;
+}
+.pic-note_text-tl h1, .pic-note_text-tr h1 {
+  font-weight: 900;
+}
+
+.pic-note_text-tr {
   right: 2%;
 }
-.pic-note_text h1 {
-  font-weight: 900;
+
+.pic-note_text-tl {
+  left: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */

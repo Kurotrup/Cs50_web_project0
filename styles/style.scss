@@ -157,11 +157,21 @@ footer:hover{
   text-align: center;
   color: $main_text_color;
 }
-.pic-note_text {
+
+%pic-note_text {
   position: absolute;
   top: 2%;
-  right: 2%;
   h1 {
     font-weight: 900;
   }
+}
+
+.pic-note_text-tr {
+  @extend %pic-note_text;
+  right: 2%;
+}
+
+.pic-note_text-tl {
+  @extend %pic-note_text;
+  left: 2%;
 }
